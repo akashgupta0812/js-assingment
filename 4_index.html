@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hightest Marks</title>
+</head>
+<body>
+    <script>
+        let marks=([])
+        let size=5;
+        for(let i=0;i<5;i++)
+        {
+            marks[i]=prompt('enter the data ');
+        }
+        let max_e=Number(marks[0]);
+        for(let i=0;i<5;i++){
+            max_e=max_e<Number(marks[i])?marks[i]:(max_e);
+        }
+        console.log(marks);
+        console.log(max_e);
+        alert(`max marks is ${max_e}`)
+    </script>
+
+</body>
+</html>

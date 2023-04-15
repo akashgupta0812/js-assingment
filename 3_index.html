@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>color combination</title>
+</head>
+<body>
+    <script>
+        let color1=prompt("enter the first color")
+        let color2=prompt("enter the second color")
+        if(color1.toUpperCase()=='RED'&&color2.toUpperCase()=='BLUE'||color1.toUpperCase()=='BLUE'&&color2.toUpperCase()=='RED')
+        {
+            alert("purple")
+        }
+        else if(color1.toUpperCase()=='RED'&&color2.toUpperCase()=='YELLOW'||color1.toUpperCase()=='YELLOW'&&color2.toUpperCase()=='RED')
+        {
+            alert("orange")
+        }
+        else if(color1.toUpperCase()=='BLUE'&&color2.toUpperCase()=='YELLOW'||color1.toUpperCase()=='YELLOW'&&color2.toUpperCase()=='BLUE')
+        {
+            alert("green")
+        }
+        else{
+            alert("INVALID color combination")
+        }
+    </script>
+</body>
+</html>
